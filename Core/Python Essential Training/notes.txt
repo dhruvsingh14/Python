@@ -1,0 +1,97 @@
+## Python Essential Training
+## Taught by Bill Weinman
+
+
+########## Module 2: Overview ##########
+
+shebang line, for unix systems
+
+to invoke script from the command line
+
+########## Module 7: Functions ##########
+
+functions: core of reusable code
+
+forward declaration: calling above a function defined below
+
+in python, all functions return a value, even if it's none
+
+in python, no distinction bw function and procedure
+
+------------------------------------------------------
+
+if you have default values, provide them. 
+
+arguments with defaults should be at the end of the list, for the interpreter
+
+kwargs: short for keyword arguments, pronounced k-w-args
+
+generators: return a stream of values
+
+	eg: 'range' function is a generator
+
+yield is like return for generators
+
+------------------------------------------------------
+
+decorators, type of meta programming, provide wrapper functions
+
+functions do define scope, blocks don't
+
+shorthand using @ is to simplify what is otherwise
+	
+	so meta, self referential, and recursive
+
+
+########## Module 9: Classes ##########
+
+Classes: how objects are defined
+
+__init__ special name for a class function, initializer, function
+
+first argument is always self. that's what makes it an object. 
+
+The other arguments are used to initialize object variables.
+
+	- object variables because they aren't initialized after the object is defined
+
+	- don't exist in class until then
+
+	- object variables have single underscore at beginning of name, "traditional"
+
+Accessors / getters return the value of object variables
+
+Object is created using the class name as if it were a function name
+
+Python doesn't have private variables
+
+_var is used to indicate not to access or set vars outside of function
+
+encapsulation: belong to object, not class
+
+you're never gonna want to put mutable data (variables) in the class
+
+	generally a very bad idea
+
+
+convention _var means do not touch this
+
+never want to set that directly from outside of the class methods
+
+Important Note: 
+
+* Never set or get object variables directly. Always use a Method to do that. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

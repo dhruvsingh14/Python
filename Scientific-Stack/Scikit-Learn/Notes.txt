@@ -1,0 +1,28 @@
+Scikit-Learn 1: Machine Learning with Scikit-Learn
+Taught by Michael Galarnyk
+
+Linear Regression: fit intercept=True, gives a much better fit (R-score)
+
+											in this case
+
+
+Kmeans: unsupervised -> only need a features matrix
+
+2-features in matrix, bc easier to visualize clusters in two dimensions
+
+PCA is also unsupervised. 
+
+Pipelines Workflow, for PCA:
+
+- train test split
+- standardization
+- fit step, for pca, the logistic reg
+
+-----------------------------------------------------------------------------------
+
+Scikit-Learn 2: Data Science Foundations: Python Scientific Stack
+Taught by Miki Tebeka
+
+sometimes splitting the data randomly is not the best approach, for example
+
+											in fraud

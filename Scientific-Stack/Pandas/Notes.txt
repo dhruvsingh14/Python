@@ -1,0 +1,7 @@
+Pandas 1
+
+type pd.[tab] to get list of functions available
+
+click into parentheses of a function, and hit shift+tab to get basic options
+
+hit shift+tab twice/thrice to get deep dive options
